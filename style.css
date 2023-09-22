@@ -15,12 +15,13 @@ a{
     padding: 0 25px;
     margin: 0 auto;
 }
+
+/* ..........................heading-section start...................  */
+
 .heading-section{
     height: 200px;
     width: 100%;
     position: fixed;
-   
-
 }
 .heading-section .continer{
     height: 100%;
@@ -80,12 +81,40 @@ a{
     margin: 4px 0;
 }
 
+/* ......................................................heading-section end..................  */
 
-
-
+/* ................................ banner-section start...........................  */
 .banner-section{
-    height: 600px;
+    /* height: 600px; */
     background-image: url(./img/background\ img.png);
     background-size: cover;
    
 }
+.banner-section .continer{
+    padding-top: 390px;
+    padding-bottom: 250px;
+}
+.banner-section .continer h2{
+    font-size: 70px;
+    font-weight: light;
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+    color: #fff;
+    position: relative;
+    padding-left: 550px;
+    padding-right: 100px;
+    margin-bottom: 48px;
+    
+}
+.banner-section .continer p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-left: 550px;
+    padding-right: 360px;
+
+}
+
+/* .............................banner-section start.......................  */
