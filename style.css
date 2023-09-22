@@ -116,5 +116,70 @@ a{
     padding-right: 360px;
 
 }
+/* ................... responsive....................  */
+
+@media screen and {
+    
+    
+}
+
+
+
 
 /* .............................banner-section start.......................  */
+
+.super-section{
+    height: 600px;
+    background-color: #835fa8;
+}
+.super-section .continer{
+    display: flex;
+    padding-top: 106px;
+}
+.super-section .continer .content{
+    width: 40%;
+}
+.super-section .continer .content h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 0 90px;
+    padding-bottom: 36px;
+}
+.super-section .continer .content p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+.super-section .continer .content a{
+    padding: 18px 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #3dd2ae;
+    position: relative;
+    left: 15%;
+    top: 5%;
+
+}
+.super-section .continer .img-section{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+.img-section .chat-img{
+    margin-top: 30%;
+    z-index: 1;
+}
+.img-section .mobile-img{
+    margin-top: -30%;
+   position: absolute;
+   right: 55px;
+   z-index: 2;
+}
